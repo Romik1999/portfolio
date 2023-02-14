@@ -1,7 +1,13 @@
-import img from './../img/projects/02-big.jpg'
+import {useParams} from 'react-router-dom'
 import BtnGithub from "../components/btnGithub/BtnGithub";
+import {projects} from "../helpers/projectsList";
+import img from './../img/projects/02-big.jpg'
 
 const Project = () => {
+
+    const {id} = useParams();
+    
+
     return (
         <main className="section">
             <div className="container">
@@ -15,7 +21,7 @@ const Project = () => {
                         <p>Skills: React, Node.js, MongoDB</p>
                     </div>
 
-                    <BtnGithub link="https://github.com/" />
+                    <BtnGithub link="https://github.com/"/>
 
                 </div>
             </div>
