@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
-                    <NavLink to="/" className="logo">
+                    <NavLink to="https://romik1999.github.io/portfolio/" className="logo">
                         <strong>Freelancer</strong> portfolio
                     </NavLink>
 
@@ -19,17 +19,17 @@ const Navbar = () => {
 
                     <ul className="nav-list">
                         <li className="nav-list__item">
-                            <NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to="https://romik1999.github.io/portfolio/" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Home
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to="https://romik1999.github.io/portfolio/projects" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Projects
                             </NavLink>
                         </li>
                         <li className="nav-list__item">
-                            <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
+                            <NavLink to="https://romik1999.github.io/portfolio/contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
                                 Contacts
                             </NavLink>
                         </li>
