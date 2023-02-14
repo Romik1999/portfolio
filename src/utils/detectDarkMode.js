@@ -1,5 +1,3 @@
-import btnDarkMode from "../components/btnDarkMode/BtnDarkMode";
-
 const detectDarkMode = () => {
     if (
         window.matchMedia &&
