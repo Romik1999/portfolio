@@ -20,10 +20,10 @@ function App() {
                 <ScrollToTop/>
                 <Navbar/>
                 <Routes>
-                    <Route path="/" element={<Home />}></Route>
-                    <Route path="/projects" element={<Projects />}></Route>
-                    <Route path="/project/:id" element={<Project />}></Route>
-                    <Route path="/contacts" element={<Contacts />}></Route>
+                    <Route path="https://romik1999.github.io/portfolio/" element={<Home />}></Route>
+                    <Route path="https://romik1999.github.io/portfolio/projects" element={<Projects />}></Route>
+                    <Route path="https://romik1999.github.io/portfolio/project/:id" element={<Project />}></Route>
+                    <Route path="https://romik1999.github.io/portfolio/contacts" element={<Contacts />}></Route>
                 </Routes>
                 <Footer/>
             </Router>
